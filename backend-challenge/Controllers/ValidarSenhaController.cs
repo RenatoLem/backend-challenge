@@ -43,6 +43,7 @@ namespace backend_challenge.Controllers
                 if (caracteres.IndexOf(caracteres[i]) != i || caracteres.LastIndexOf(caracteres[i]) != i)
                 {
                     _caracteresRepetidos = true;
+                    break;
                 }
             }
 
